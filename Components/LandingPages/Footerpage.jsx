@@ -11,7 +11,7 @@ const Footerpage = () => {
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8 }}
-      className="w-full bg-white text-gray-800 border-t border-gray-200 py-12 px-6 md:px-16"
+      className="w-full h-auto bg-white text-gray-800  py-12 px-6 md:px-16"
     >
       <div className="max-w-7xl mx-auto flex flex-col items-center md:flex-row justify-between space-y-10 md:space-y-0">
         

@@ -3,7 +3,7 @@ import Marquee from "react-fast-marquee";
 
 const Gallery = () => {
     return (
-        <div className="w-full min-h-screen bg-gradient-to-r from-gray-100 to-white flex flex-col items-center">
+        <div className="w-full md:min-h-screen bg-gradient-to-r from-gray-50 to-white flex flex-col items-center">
             {/* Heading Section */}
             <div className="w-[90%] md:w-[80%] mt-10 text-center">
                 <h1 className="text-4xl md:text-5xl font-bold text-gray-800 break-words">
