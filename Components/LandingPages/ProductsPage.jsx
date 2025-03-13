@@ -100,7 +100,7 @@ const ProductsPage = () => {
         Trending Products
       </motion.h2>
 
-      <div className="relative max-w-8xl max-h-8xl mx-auto">
+      <div className="relative max-w-7xl max-h-8xl mx-auto">
         <Swiper
           modules={[Navigation, Autoplay]}
           slidesPerView={1}
@@ -175,7 +175,7 @@ const ProductsPage = () => {
                   {/* Enquiry Button */}
                   <Link href="#">
                     <motion.button
-                      className="bg-gradient-to-r from-green-400 to-blue-400 text-white py-2 px-4 rounded-lg w-full sm:w-auto"
+                      className="bg-gradient-to-r from-green-400 to-blue-400 text-white py-2 px-3 rounded-lg w-full sm:w-auto"
                       whileHover={{ scale: 1.1 }}
                       transition={{ duration: 0.3 }}
                     >
@@ -186,7 +186,7 @@ const ProductsPage = () => {
                   {/* Order Button */}
                   <Link href="#">
                     <motion.button
-                      className="bg-gradient-to-r from-green-400 to-blue-400 text-white py-2 px-4 rounded-lg w-full sm:w-auto"
+                      className="bg-gradient-to-r from-green-400 to-blue-400 text-white py-2 px-3 rounded-lg w-full sm:w-auto"
                       whileHover={{ scale: 1.1 }}
                       transition={{ duration: 0.3 }}
                     >
@@ -197,7 +197,7 @@ const ProductsPage = () => {
                   {/* Specifications Button */}
                   <Link href="#">
                     <motion.button
-                      className="bg-gradient-to-r from-green-400 to-blue-400 text-white py-2 px-4 rounded-lg w-full sm:w-auto"
+                      className="bg-gradient-to-r from-green-400 to-blue-400 text-white py-2 px-3 rounded-lg w-full sm:w-auto"
                       whileHover={{ scale: 1.1 }}
                       transition={{ duration: 0.3 }}
                     >
